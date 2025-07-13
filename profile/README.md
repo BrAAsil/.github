@@ -1,3 +1,8 @@
+
+<div align="center">
+  <a href="https://braasil.com"><img src="https://github.com/user-attachments/assets/7f931761-fb82-4a8a-9f9b-1200190fd487" alt="braasil logo" width="640"></a>
+</div>
+
 # Welcome to BrAAsil's GitHub Organization!
 
 ## 🤖 About BrAAsil
