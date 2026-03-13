@@ -1,0 +1,6 @@
+{
+  "name": "BrAAsil .NET CI",
+  "description": "Standard CI pipeline for BrAAsil .NET projects",
+  "iconName": "dotnet",
+  "categories": ["continuous-integration"]
+}
