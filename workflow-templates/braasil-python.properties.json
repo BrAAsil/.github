@@ -1,0 +1,6 @@
+{
+  "name": "BrAAsil Python CI",
+  "description": "Standard CI pipeline for BrAAsil Python projects",
+  "iconName": "python",
+  "categories": ["continuous-integration"]
+}

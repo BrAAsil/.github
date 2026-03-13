@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    uses: braasil/braasil-standards/.github/workflows/ci-python.yml@main
+    with:
+      quality-command: 'task quality'
+
+  security:
+    uses: braasil/braasil-standards/.github/workflows/ci-security.yml@main
+
+  pr-checks:
+    if: github.event_name == 'pull_request'
+    uses: braasil/braasil-standards/.github/workflows/pr-checks.yml@main

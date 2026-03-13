@@ -1,0 +1,6 @@
+{
+  "name": "BrAAsil Node CI",
+  "description": "Standard CI pipeline for BrAAsil Node/TypeScript projects",
+  "iconName": "nodejs",
+  "categories": ["continuous-integration"]
+}
